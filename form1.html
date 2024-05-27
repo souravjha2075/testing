@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+<h1>first form design</h1>
+<table>	
+		<tr>
+			<td>username</td>
+			<td><input type="text"></td>	
+		</tr>
+		<tr>
+			<td>password</td>
+			<td><input type="password"></td>	
+		</tr>
+		<tr>
+			<td>gender</td>
+			<td>
+				M<input type="radio" name="a">
+				F<input type="radio" name="a">
+			</td>	
+		</tr>
+</table>
+
+
+<h1>second form design</h1>
+<ul>
+	<li>
+		<label>username</label><br>
+		<input type="text">
+	</li>
+	<li>
+		<label>password</label><br>
+		<input type="password">
+	</li>
+	<li>
+		<label>gender</label><br>
+				M<input type="radio" name="a">
+				F<input type="radio" name="a">
+	</li>
+</ul>
+
+
+<h1>third form design</h1>
+<ul>
+	<li>
+		
+		<input type="text" placeholder="username">
+	</li>
+	<li>
+		
+		<input type="password" placeholder="password">
+	</li>
+	<li>
+		<label>gender</label><br>
+				M<input type="radio" name="a">
+				F<input type="radio" name="a">
+	</li>
+</ul>
+
+
+<h1>html calculator</h1>
+
+<form name="f1">
+<table bgcolor="skyblue">
+	<tr align="center">
+			<td colspan="4"><input type="text" name="t1" placeholder="0:00"></td>
+	</tr>
+	<tr align="center">
+		<td> <input type="button" value="1" onclick="f1.t1.value+='1'"></td>
+		<td> <input type="button" value="2" onclick="f1.t1.value+='2'"></td>
+		<td> <input type="button" value="3"></td>
+		<td> <input type="button" value="*" onclick="f1.t1.value+='*'"></td>
+	</tr>
+	<tr align="center">
+		<td> <input type="button" value="4"></td>
+		<td> <input type="button" value="5"></td>
+		<td> <input type="button" value="6"></td>
+		<td> <input type="button" value="-"></td>
+	</tr>
+	<tr align="center">
+		<td> <input type="button" value="7"></td>
+		<td> <input type="button" value="8"></td>
+		<td> <input type="button" value="9"></td>
+		<td> <input type="button" value="/"></td>
+	</tr>
+	<tr align="center">
+		<td> <input type="reset" value="c"></td>
+		<td> <input type="button" value="0"></td>
+		<td> <input type="button" value="=" onclick="f1.t1.value=eval(f1.t1.value)"></td>
+		<td> <input type="button" value="+"></td>
+	</tr>
+
+</table>
+
+</form>
+
+<h1> we are &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9728;learning web design</h1>
+
+
+
+
+</body>
+</html>
